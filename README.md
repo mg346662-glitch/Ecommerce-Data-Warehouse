@@ -8,6 +8,8 @@ This project implements an end-to-end modern data warehousing pipeline. It inges
 ## 🔄 Data Pipeline Journey & Flow
 
 The lifecycle of the data progresses through distinct technical stages:
+<img width="1089" height="620" alt="Midalien Arct_1" src="https://github.com/user-attachments/assets/4905fe04-9e58-4cb7-ac20-45337ed7fa63" />
+
 
 ### 1. Data Sources Layer
 * **Source Systems:** 
