@@ -57,6 +57,8 @@ The final analytical layer is modeled as a classic Star Schema comprising:
   * `Dim_Customers` (Customer demographic details, keys, and attributes).
   * `Dim_Products` (Product specifications, categories, and maintenance info).
   * `Calendar` (Time intelligence dimensions including year, quarter, month, and date).
+  * ---
+> 📖 For detailed table schemas, data types, and grain definitions, check the [Data Catalog](DATA_CATALOG.md).
 
 ---
 
