@@ -39,7 +39,7 @@ The lifecycle of the data progresses through distinct technical stages:
 ## 🔗 Integration Model
 
 To bridge the gap between disparate systems, the **Integration Model** harmonizes entities across platforms:
-<img width="1175" height="621" alt="Intgration Model" src="https://github.com/user-attachments/assets/a7defee7-7fbe-4760-8c43-4f9d53fdfb74" />
+<img width="995" height="622" alt="2" src="https://github.com/user-attachments/assets/5bdcdfe2-fb0d-4242-861b-3ece88b9a5a7" />
 
 * **Sales Transactions (`Fact_Sales`):** Linked centrally using `Sls_prd_key` and `Sls_Cust_id` derived from CRM sales data.
 * **Customer Integration:** Merges CRM customer tables (`Crm_Customer_info`) with ERP location and customer records (`Erp_Loc_info`, `Erp_Cust_info`) to build unified dimensions (`Dim_Customers`).
