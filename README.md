@@ -8,7 +8,7 @@ This project implements an end-to-end modern data warehousing pipeline. It inges
 ## 🔄 Data Pipeline Journey & Flow
 
 The lifecycle of the data progresses through distinct technical stages:
-<img width="1089" height="620" alt="Midalien Arct_1" src="https://github.com/user-attachments/assets/4905fe04-9e58-4cb7-ac20-45337ed7fa63" />
+<img width="1010" height="611" alt="Midalien Arct" src="https://github.com/user-attachments/assets/ef8d9f6d-e1ed-497e-a1c2-e09c3c0be9ed" />
 
 
 ### 1. Data Sources Layer
@@ -39,6 +39,8 @@ The lifecycle of the data progresses through distinct technical stages:
 ## 🔗 Integration Model
 
 To bridge the gap between disparate systems, the **Integration Model** harmonizes entities across platforms:
+<img width="1175" height="621" alt="Intgration Model" src="https://github.com/user-attachments/assets/a7defee7-7fbe-4760-8c43-4f9d53fdfb74" />
+
 * **Sales Transactions (`Fact_Sales`):** Linked centrally using `Sls_prd_key` and `Sls_Cust_id` derived from CRM sales data.
 * **Customer Integration:** Merges CRM customer tables (`Crm_Customer_info`) with ERP location and customer records (`Erp_Loc_info`, `Erp_Cust_info`) to build unified dimensions (`Dim_Customers`).
 * **Product Integration:** Combines CRM product info (`Crm_Product_info`) with ERP category mappings (`Erp_Px_CAT`) to establish unified product dimensions (`Dim_Products`).
@@ -48,6 +50,8 @@ To bridge the gap between disparate systems, the **Integration Model** harmonize
 ## 🌟 Dimensional Modeling (Star Schema)
 
 The final analytical layer is modeled as a classic Star Schema comprising:
+<img width="922" height="631" alt="ٍStar Shcema Modling" src="https://github.com/user-attachments/assets/6babfe09-e32e-4d51-9840-8f7ec45924b0" />
+
 * **Fact Table:** `Fact_Sales` (containing transactional measures like sales price, quantity, and foreign keys).
 * **Dimension Tables:** 
   * `Dim_Customers` (Customer demographic details, keys, and attributes).
@@ -58,6 +62,8 @@ The final analytical layer is modeled as a classic Star Schema comprising:
 
 ## 🚀 Consumption & Reporting
 The processed Gold layer feeds directly into downstream applications:
+<img width="1180" height="622" alt="Data Flow" src="https://github.com/user-attachments/assets/fe7ab7d1-9486-4fef-ae6a-87c1e4691d2a" />
+
 * **Power BI:** Interactive dashboards and visual analytics.
 * **Enterprise Reporting:** Automated reporting services.
 * **Machine Learning:** Predictive modeling and advanced analytics pipelines.
